@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmet Melih Deniz</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <div class="container">
+            <a class="navbar-brand" href="">Ahmet Melih Deniz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hakkimda">Hakkımda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#beceriler">Beceriler</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projeler">Projeler</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </nav>
+
+
+    <!-- HAKKIMDA -->
+
+    <div class="row gizli py-3">
+
+        <section id="hakkimda" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Hakkımda</h2>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img src="img/profil.jpg" alt="Profil Fotoğrafı" class="img-fluid rounded-circle" width="200" />
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                            Merhaba, ben Ahmet Melih Deniz, modern web ve mobil uygulamalar geliştiren bir full stack
+                            developer’ım. Kullanıcı odaklı arayüzler geliştirmekten, performanslı backend mimarileri
+                            kurmaya
+                            kadar yazılımın her katmanında aktif olarak yer alıyorum.
+
+                            Node.js, Flutter ve MongoDB gibi teknolojilerle geliştirilen, canlı kullanıcı etkileşimleri
+                            içeren projelerde görev aldım. Örneğin, kullanıcıların anlık olarak eşleştiği ve görüntülü
+                            konuşabildiği bir dil öğrenme uygulaması üzerinde çalıştım.
+
+                            Sadece kod yazmakla kalmıyor, aynı zamanda problemi analiz edip en uygun çözümü mimari
+                            düzeyde
+                            kurgulamak benim için işin en heyecanlı kısmı. Her projeyi bir ürün gibi düşünüyor,
+                            sürdürülebilir ve okunabilir kodlar yazmaya özen gösteriyorum.
+
+                            Güncel teknolojileri takip ederek kendimi sürekli geliştiriyor, yazılımı bir meslekten çok
+                            bir
+                            zanaat olarak görüyorum. Hedefim; ölçeklenebilir sistemler kurmak, insanların hayatını
+                            kolaylaştıran ürünler üretmek ve global düzeyde ses getiren yazılımlar geliştirmek.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <!-- BECERİLER -->
+    <section id="beceriler" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Beceriler</h2>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <p>✅ HTML5 - CSS3 - Bootstrap 5</p>
+                </div>
+                <div class="col-md-3">
+                    <p>✅ Flutter</p>
+                </div>
+                <div class="col-md-3">
+                    <p>✅ JavaScript - Node js</p>
+                </div>
+                <div class="col-md-3">
+                    <p>✅ Java - Spring Boot</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJELER -->
+    <section id="projeler" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Projelerim</h2>
+            <div class="row">
+                <!-- Buraya kartlar eklenecek -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/proje1.jpg" class="card-img-top" alt="Proje 1" />
+                        <div class="card-body">
+                            <h5 class="card-title">ToDo Uygulaması</h5>
+                            <p class="card-text">Yapılacaklar listesi uygulaması - Flutter ve Hive kullanılarak
+                                geliştirildi.</p>
+                            <a href="#" class="btn btn-primary">Görüntüle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Daha fazla proje kartı eklenebilir -->
+            </div>
+        </div>
+    </section>
+
+    <!-- İLETİŞİM -->
+    <section id="iletisim" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">İletişim</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="ad" class="form-label">Adınız</label>
+                    <input type="text" class="form-control" id="ad" placeholder="Adınızı girin" />
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-posta</label>
+                    <input type="email" class="form-control" id="email" placeholder="E-posta adresiniz" />
+                </div>
+                <div class="mb-3">
+                    <label for="mesaj" class="form-label">Mesaj</label>
+                    <textarea class="form-control" id="mesaj" rows="4" placeholder="Mesajınızı yazın"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
